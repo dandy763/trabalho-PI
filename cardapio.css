@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1111;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ff5c00;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.pedido-section {
+    max-width: 600px;
+    text-align: center;
+}
+
+.imagens-pratos img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.pedido-button button {
+    background-color: #ff5c00;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.descricao {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.promocao {
+    text-align: center;
+}
+
+.promocao h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.promocao img {
+    width: 200px;
+    border-radius: 10px;
+}
