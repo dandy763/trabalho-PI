@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1414;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Logo no topo direito */
+.logo-superior-direita {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+}
+
+/* Container central */
+.container {
+  text-align: center;
+}
+
+.logo-central {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.mensagem {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.botao-whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botao-whatsapp:hover {
+  background-color: #1ebe5b;
+}

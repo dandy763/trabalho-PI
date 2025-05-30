@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  padding: 20px;
+}
+
+.cardapio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.coluna {
+  flex: 1 1 300px;
+  max-width: 350px;
+  background-color: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.coluna-imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.pedido-box {
+  margin-top: 20px;
+}
+
+.pedido-texto {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.botao-pedir {
+  background-color: #ff7f27;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.botao-pedir:hover {
+  background-color: #e56d1e;
+}
+
+.logo-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: auto;
+  padding: 10px;
+}
